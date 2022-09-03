@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
 
         <div className="space-y-2">
-          <h1 className="text-xl font-bold font-slab ">Let's Connect</h1>
+          <h1 className="text-xl font-bold font-slab ">Let&apos;s Connect</h1>
           <p className="md:w-[300px]">
             Connect with entrepreneurs, build your network, make great business.
           </p>
