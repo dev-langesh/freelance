@@ -4,6 +4,7 @@ import CardGroup from "../components/Home/CardGroup";
 import Section3 from "../components/Home/Section3";
 import QualifyOnline from "../components/Home/QualifyOnline";
 import FlexibleTerms from "../components/Home/FlexibleTerms";
+import Gallery from "../components/Home/Gallery";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Section3 />
       <QualifyOnline />
       <FlexibleTerms />
+      <Gallery />
     </div>
   );
 }
