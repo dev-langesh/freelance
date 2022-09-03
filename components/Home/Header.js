@@ -2,7 +2,7 @@ import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import { IconButton } from "@mui/material";
 import { useDispatch } from "react-redux";
-import { open } from "../src/features/sidebarSlice";
+import { open } from "../../src/features/sidebarSlice";
 import Link from "next/link";
 
 export default function Header() {

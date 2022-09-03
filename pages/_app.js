@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import { Provider } from "react-redux";
 import { store } from "../src/app/store";
-import SideBar from "../components/SideBar";
+import SideBar from "../components/Home/SideBar";
 
 function MyApp({ Component, pageProps }) {
   return (

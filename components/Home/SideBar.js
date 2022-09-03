@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { navWithAuthObj } from "./navigateObj";
 import { useDispatch, useSelector } from "react-redux";
-import { close } from "../src/features/sidebarSlice";
+import { close } from "../../src/features/sidebarSlice";
 import { useRouter } from "next/router";
 
 export default function SideNav() {
