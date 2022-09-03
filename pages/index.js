@@ -6,6 +6,7 @@ import QualifyOnline from "../components/Home/QualifyOnline";
 import FlexibleTerms from "../components/Home/FlexibleTerms";
 import Gallery from "../components/Home/Gallery";
 import Footer from "../components/Home/Footer";
+import Form from "../components/Home/Form";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <QualifyOnline />
       <FlexibleTerms />
       <Gallery />
+      <Form />
       <Footer />
     </div>
   );
