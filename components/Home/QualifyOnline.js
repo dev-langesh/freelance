@@ -41,7 +41,7 @@ export default function QualifyOnline() {
         <div className="p-4 text-white bg-blue-500 rounded shadow-black/30 shadow-lg md:absolute bottom-10 right-56 w-full md:w-[400px] mx-auto">
           <BusinessCenterIcon className="rounded-full text-3xl text-white " />
 
-          <h1 className="font-bold text-xl py-4 ">Anything You Need</h1>
+          <h1 className="font-bold text-xl py-4 ">Friendly Price Package</h1>
           <p>
             This is a short description elaborating the service you have
             mentioned above.​​
