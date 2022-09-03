@@ -33,12 +33,12 @@ export default function FlexibleTerms() {
         <Button variant="outlined">Check Pricing</Button>
       </section>
 
-      <section className="relative space-y-10">
+      <section className="relative space-y-10 p-4">
         <img
           src="https://i0.wp.com/urgentbridgingloans.com.au/wp-content/uploads/2020/07/affordable-pricing.jpg?fit=640%2C720&ssl=1"
           className="rounded-xl"
         />
-        <div className="p-4 text-white bg-blue-500 rounded shadow-black/30 shadow-lg md:absolute -top-32 left-52 w-[400px] mx-auto">
+        <div className="p-4 text-white bg-blue-500 rounded shadow-black/30 shadow-lg md:absolute -top-32 left-52 w-11/12 md:w-[400px] mx-auto">
           <AddIcon className="rounded-full text-3xl text-white " />
 
           <h1 className="font-bold text-xl py-4 ">Anything You Need</h1>

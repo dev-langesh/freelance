@@ -25,18 +25,20 @@ export default function QualifyOnline() {
 
           <div>
             <ClassIcon className="text-blue-600 text-4xl" />
-            <h2 className="py-4 text-xl font-slab">Flexible Terms</h2>
+            <h2 className="py-4 text-xl font-slab">
+              Capitalised & Interest Only
+            </h2>
           </div>
         </div>
         <Button variant="outlined">Learn More</Button>
       </section>
 
-      <section className="relative space-y-10">
+      <section className="relative space-y-10 p-4">
         <img
           src="https://i0.wp.com/urgentbridgingloans.com.au/wp-content/uploads/2020/07/facilites.jpg?fit=640%2C720&ssl=1"
           className="rounded-xl"
         />
-        <div className="p-4 text-white bg-blue-500 rounded shadow-black/30 shadow-lg md:absolute bottom-10 right-56 w-[400px] mx-auto">
+        <div className="p-4 text-white bg-blue-500 rounded shadow-black/30 shadow-lg md:absolute bottom-10 right-56 w-full md:w-[400px] mx-auto">
           <BusinessCenterIcon className="rounded-full text-3xl text-white " />
 
           <h1 className="font-bold text-xl py-4 ">Anything You Need</h1>
