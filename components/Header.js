@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className="flex justify-between p-4">
-      <h1 className="text-2xl font-bold">TheWorkPlace</h1>
+      <h1 className="text-2xl font-bold font-slab">TheWorkPlace</h1>
       <IconButton sx={{ color: "white" }} onClick={() => dispatch(open())}>
         <MenuIcon />
       </IconButton>

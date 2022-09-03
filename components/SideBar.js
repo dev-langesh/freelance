@@ -15,15 +15,11 @@ export default function SideNav() {
     dispatch(close());
   }
 
-  useEffect(() => {
-    console.log(state);
-  });
-
   return (
     <aside
       className={`absolute top-0 left-0 transform ${
         state === "open" ? "translate-x-0" : "-translate-x-[250px]"
-      } w-[250px] bg-white shadow shadow-indigo-200 h-screen flex flex-col transition duration-200 sm:hidden z-50`}
+      } w-[250px] bg-white shadow shadow-indigo-200 h-screen flex flex-col transition duration-200  z-50`}
     >
       <Link href="/">
         <a
