@@ -3,11 +3,11 @@ import Header from "./Header";
 
 export default function LandingSection() {
   return (
-    <section className="w-full h-screen bg-gradient-to-br to-purple-600 to from-blue-600 text-white rounded-br-[300px]">
+    <section className="w-full h-[80vh] md:h-screen bg-gradient-to-br to-purple-600 to from-blue-600 text-white rounded-br-[300px]">
       <Header />
       <div className="flex justify-around items-center p-6">
         <section className=" space-y-8 md:w-1/2 ">
-          <h1 className="text-5xl font-bold leading-snug tracking-wider font-slab pt-4 lg:pt-16 md:text-6xl ">
+          <h1 className="text-3xl md:text-6xl font-bold leading-snug tracking-wider font-slab pt-4 lg:pt-16 ">
             24 Hour Urgent Business Funding
           </h1>
           <p className=" tracking-wide md:text-xl">
