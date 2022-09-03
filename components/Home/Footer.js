@@ -55,16 +55,16 @@ export default function Footer() {
           <p className="md:w-[300px]">
             Connect with entrepreneurs, build your network, make great business.
           </p>
-          <IconButton className="text-white">
+          <IconButton sx={{ color: "white" }}>
             <FacebookIcon />
           </IconButton>
-          <IconButton className="text-white">
+          <IconButton sx={{ color: "white" }}>
             <InstagramIcon />
           </IconButton>
-          <IconButton className="text-white">
+          <IconButton sx={{ color: "white" }}>
             <MailIcon />
           </IconButton>
-          <IconButton className="text-white">
+          <IconButton sx={{ color: "white" }}>
             <LinkedInIcon />
           </IconButton>
         </div>

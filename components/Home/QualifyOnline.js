@@ -19,12 +19,12 @@ export default function QualifyOnline() {
 
         <div className="flex py-6 space-x-10">
           <div>
-            <ViewInArIcon className="text-blue-600 text-4xl" />
+            <ViewInArIcon sx={{ fontSize: "44px" }} className="text-blue-600" />
             <h2 className="py-4 text-xl font-slab">Flexible Terms</h2>
           </div>
 
           <div>
-            <ClassIcon className="text-blue-600 text-4xl" />
+            <ClassIcon sx={{ fontSize: "44px" }} className="text-blue-600" />
             <h2 className="py-4 text-xl font-slab">
               Capitalised & Interest Only
             </h2>

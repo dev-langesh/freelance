@@ -21,12 +21,12 @@ export default function FlexibleTerms() {
 
         <div className="flex py-6 space-x-10">
           <div>
-            <AlarmOnIcon className="text-blue-600 text-4xl" />
+            <AlarmOnIcon sx={{ fontSize: "44px" }} className="text-blue-600" />
             <h2 className="py-4 text-xl font-slab">Borrow On Your Terms</h2>
           </div>
 
           <div>
-            <GroupsIcon className="text-blue-600 text-4xl" />
+            <GroupsIcon sx={{ fontSize: "44px" }} className="text-blue-600" />
             <h2 className="py-4 text-xl font-slab">We Are Here To Help</h2>
           </div>
         </div>
