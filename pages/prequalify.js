@@ -1,8 +1,7 @@
-import { Link } from "@mui/material";
 import { useRouter } from "next/router";
 import React from "react";
 
-export default function prequalify() {
+export default function Prequalify() {
   const router = useRouter();
 
   const { qualified, netbr } = router.query;
