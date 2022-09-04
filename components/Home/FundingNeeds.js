@@ -13,9 +13,12 @@ export default function FundingNeeds() {
         account the next business day. All you need to pre qualify is enough
         equity in real-estate and a business purpose for the loan.
       </p>
-      <button className="bg-blue-500 text-white text-semibold  py-2 px-6 mt-6 rounded shadow-lg">
+      <a
+        href="#form"
+        className="inline-block bg-blue-500 text-white text-semibold  py-2 px-6 mt-6 rounded shadow-lg"
+      >
         Pre-Qualify In 15 Seconds
-      </button>
+      </a>
     </section>
   );
 }

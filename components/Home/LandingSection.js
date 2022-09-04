@@ -15,9 +15,12 @@ export default function LandingSection() {
             settlement? Gap in cashflow? Deal of a lifetime? don’t let the banks
             hold you up!
           </p>
-          <button className="bg-sky-400 py-2 px-6 mt-6 rounded">
+          <a
+            href="#form"
+            className="bg-sky-400 py-2 px-6 mt-6 rounded inline-block"
+          >
             Pre-Qualify In 15 Seconds
-          </button>
+          </a>
         </section>
         <img
           className="hidden md:block w-[300px] h-[400px] object-cover rounded"

@@ -19,7 +19,6 @@ export default function Form() {
   function submitHandler(e) {
     e.preventDefault();
     const { property, amountOwing } = state;
-    console.log(state);
 
     let c = property * 0.75 - amountOwing;
 
@@ -33,29 +32,27 @@ export default function Form() {
 
     let netbr = c - c * 0.0195 * 1 - estab - 3300 - 0.01 * c;
 
-    console.log(netbr);
-
     if (netbr < 20000 && netbr >= 0) setPrequalified(false);
     else if (netbr > 20000) setPrequalified(true);
     else setPrequalified(false);
 
-    console.log(prequalified);
     setDialog(true);
   }
 
   return (
     <form
+      id="form"
       onSubmit={submitHandler}
       className="p-10 flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:justify-center sm:space-x-5"
     >
       <Dialog open={dialog} onClose={() => setDialog(false)}>
-        <DialogTitle>Pre Qualify Verification</DialogTitle>
+        <DialogTitle>Status</DialogTitle>
 
-        {prequalified ? (
-          <h1>Congratulations You are pre-qualified</h1>
-        ) : (
-          <h2>You are not pre-Qualified</h2>
-        )}
+        <h1 className="p-4 text-center bg-indigo-700 text-white">
+          {prequalified
+            ? "Congratulations You are pre-qualified"
+            : "You are not pre-Qualified"}
+        </h1>
       </Dialog>
 
       <TextField
