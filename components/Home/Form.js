@@ -1,11 +1,14 @@
 import { Title } from "@mui/icons-material";
-import { Button, Dialog, DialogTitle, TextField } from "@mui/material";
+import { Button, TextField } from "@mui/material";
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 
 export default function Form() {
   const [state, setState] = useState({ property: 0, amountOwing: 0 });
-  const [dialog, setDialog] = useState(false);
   const [prequalified, setPrequalified] = useState(false);
+  const [netb, setNetbr] = useState(0);
+
+  const router = useRouter();
 
   function changeHandler(event) {
     setState((prev) => {
@@ -31,12 +34,15 @@ export default function Form() {
     }
 
     let netbr = c - c * 0.0195 * 1 - estab - 3300 - 0.01 * c;
+    let prequalified;
 
-    if (netbr < 20000 && netbr >= 0) setPrequalified(false);
-    else if (netbr > 20000) setPrequalified(true);
-    else setPrequalified(false);
+    setNetbr(netbr);
 
-    setDialog(true);
+    if (netbr < 20000 && netbr >= 0) prequalified = false;
+    else if (netbr > 20000) prequalified = true;
+    else prequalified = false;
+
+    router.push(`prequalify/?qualified=${prequalified}&netbr=${netbr}`);
   }
 
   return (
@@ -45,16 +51,6 @@ export default function Form() {
       onSubmit={submitHandler}
       className="p-10 flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:justify-center sm:space-x-5"
     >
-      <Dialog open={dialog} onClose={() => setDialog(false)}>
-        <DialogTitle>Status</DialogTitle>
-
-        <h1 className="p-4 text-center bg-indigo-700 text-white">
-          {prequalified
-            ? "Congratulations You are pre-qualified"
-            : "You are not pre-Qualified"}
-        </h1>
-      </Dialog>
-
       <TextField
         onChange={changeHandler}
         name="property"
