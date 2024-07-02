@@ -23,8 +23,8 @@ export default function LandingSection() {
           </a>
         </section>
         <img
-          className="hidden md:block w-[300px] h-[400px] object-cover rounded"
-          src="https://i0.wp.com/urgentbridgingloans.com.au/wp-content/uploads/2022/08/pexels-photo-7777639.jpeg?resize=1024%2C683&ssl=1"
+          className="hidden md:block w-[350px] h-[450px] object-cover rounded"
+          src="images/l.jpg"
         />
       </div>
     </section>

@@ -35,7 +35,7 @@ export default function FlexibleTerms() {
 
       <section className="relative space-y-10 p-4">
         <img
-          src="https://i0.wp.com/urgentbridgingloans.com.au/wp-content/uploads/2020/07/affordable-pricing.jpg?fit=640%2C720&ssl=1"
+          src="images/3.png"
           className="rounded-xl"
         />
         <div className="p-4 text-white bg-blue-500 rounded shadow-black/30 shadow-lg md:absolute -top-32 left-52 w-11/12 md:w-[400px] mx-auto">

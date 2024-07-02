@@ -18,7 +18,7 @@ export default function Home() {
       <QualifyOnline />
       <FlexibleTerms />
       <Gallery />
-      <Form />
+      {/* <Form /> */}
       <Footer />
     </div>
   );
